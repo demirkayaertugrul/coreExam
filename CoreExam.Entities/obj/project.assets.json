@@ -686,11 +686,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\ertu\\Source\\Repos\\CoreExam\\CoreExam.Entities\\CoreExam.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\Ertu\\Source\\Repos\\CoreExam\\CoreExam.Entities\\CoreExam.Entities.csproj",
       "projectName": "CoreExam.Entities",
-      "projectPath": "c:\\users\\ertu\\Source\\Repos\\CoreExam\\CoreExam.Entities\\CoreExam.Entities.csproj",
+      "projectPath": "C:\\Users\\Ertu\\Source\\Repos\\CoreExam\\CoreExam.Entities\\CoreExam.Entities.csproj",
       "packagesPath": "C:\\Users\\Ertu\\.nuget\\packages\\",
-      "outputPath": "c:\\users\\ertu\\Source\\Repos\\CoreExam\\CoreExam.Entities\\obj\\",
+      "outputPath": "C:\\Users\\Ertu\\Source\\Repos\\CoreExam\\CoreExam.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -709,8 +709,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "c:\\users\\ertu\\Source\\Repos\\CoreExam\\CoreExam.Core\\CoreExam.Core.csproj": {
-              "projectPath": "c:\\users\\ertu\\Source\\Repos\\CoreExam\\CoreExam.Core\\CoreExam.Core.csproj"
+            "C:\\Users\\Ertu\\Source\\Repos\\CoreExam\\CoreExam.Core\\CoreExam.Core.csproj": {
+              "projectPath": "C:\\Users\\Ertu\\Source\\Repos\\CoreExam\\CoreExam.Core\\CoreExam.Core.csproj"
             }
           }
         }
