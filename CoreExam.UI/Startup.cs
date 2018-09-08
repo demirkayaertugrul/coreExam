@@ -2,6 +2,7 @@
 using CoreExam.Business.Concrete;
 using CoreExam.DataAccess.Abstract;
 using CoreExam.DataAccess.Concrete.EF;
+using CoreExam.UI.Middlewares;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
@@ -17,6 +18,9 @@ namespace CoreExam.UI
         {
             services.AddScoped<IProductService, ProductManager>();
             services.AddScoped<IProductDAL, EFProductDAL>();
+
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<ICategoryDAL, EFCategoryDAL>();
             services.AddMvc();
         }
 
@@ -27,6 +31,9 @@ namespace CoreExam.UI
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseFileServer();
+
+            app.UseNodeModules(env.ContentRootPath);
 
             app.UseMvcWithDefaultRoute();
         }
