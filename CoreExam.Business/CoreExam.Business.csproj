@@ -4,4 +4,9 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CoreExam.DataAccess\CoreExam.DataAccess.csproj" />
+    <ProjectReference Include="..\CoreExam.Entities\CoreExam.Entities.csproj" />
+  </ItemGroup>
+
 </Project>
